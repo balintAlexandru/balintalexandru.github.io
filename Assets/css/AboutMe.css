@@ -24,12 +24,12 @@
     width:80%;
 }
 .about-content p {
-    font-size:1.1rem;
+    font-size:1rem;
     color:white;
     /* border: 2px solid white; */
 }
 .about-img{
-    margin-top:4rem;
+    margin-top:5rem;
     width:100%;
 }
 .about-img img{
