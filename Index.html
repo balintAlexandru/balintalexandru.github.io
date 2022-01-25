@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Assets/Shared/Menu.css">
+    <link rel="stylesheet" href="./Assets/css/Home.css">
+    <link rel="stylesheet" href="./Assets/css/Project.css">
+    <link rel="stylesheet" href="./Assets/css/AboutMe.css">
+    <link rel="stylesheet" href="./Assets/css/Contact.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f665f00745.js" crossorigin="anonymous"></script>
+    <script src='https://code.createjs.com/easeljs-0.7.1.min.js' defer></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js' defer></script>
+    <script  src="./Assets/js/Animation.js" defer></script>
+    <script  src="./Assets/js/Menu.js" defer></script>
+    <title>Balint Alexandru</title>
+  </head>
+  <body>
+
+    <!-- MENU -->
+    <header>
+        <nav>
+            <!-- <input type="checkbox" id="check"> -->
+            <label for="check" class="hamburger-btn">
+              <i class="fas fa-bars"></i>
+            </label>
+          <ul class="nav-list">
+            <li><a id="home" data-link="homeS" class="active scroll_to">< Acasa /></a></li>
+            <li><a id="projects" data-link="projectsS" class="scroll_to">< Proiecte /></a></li>
+            <li><a id="aboutMe" data-link="aboutMeS" class="scroll_to">< Despre mine /></a></li>
+            <li><a id="contact" data-link="contactS" class="scroll_to">< Contact /></a></li>
+          </ul> 
+        </nav>
+    </header> 
+
+    <!-- HOME SECTION -->
+    <section id="homeS" class="section-home">
+        <div class="container-home">
+            <img src="./Assets/image/Balint Alexandru.png"
+                  alt="Balint Alexandru"> 
+            <h1 class="home-title">Balint Alexandru</h1>
+            <p>Front End Developer</p>
+            <button data-link="projectsS" class="scroll_to">
+                <div class="btn">
+                    <p>Proiecte</p>
+                    <span class="material-icons">arrow_downward</span>
+                </div> 
+            </button>
+        </div>
+        <canvas id="projector"></canvas>
+    </section>
+
+    <!-- PROJECT SECTION-->
+    <section id="projectsS" class="section-project">
+        <div class="container-project">
+            <h1>< Proiecte /></h1>
+            <div class="col-project">
+              <div class="project">
+                <div class="project-image">
+                  <img src="./Assets/image/project.png" class="img-project"
+                        alt="Project">
+                </div>
+                <p class="project-title">Form Validation</p>
+                <p class="project-about">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur repellat ratione quaerat vero!</p>
+                <span>Tehnologii: CSS, HTML, JS</span>
+                <div class="project-btn">
+                  <button>Afiseaza</button>
+                </div>
+                </div>
+                <div class="project">
+                  <div class="project-image">
+                    <img src="./Assets/image/project.png" class="img-project"
+                        alt="Project">
+                  </div>
+                  <p class="project-title">Form Validation</p>
+                  <p class="project-about">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur repellat ratione quaerat vero!</p>
+                  <span>Tehnologii: CSS, HTML, JS</span>
+                  <div class="project-btn">
+                    <button>Afiseaza</button>
+                  </div>
+                </div>
+                <div class="project">
+                  <div class="project-image">
+                    <img src="./Assets/image/project.png" class="img-project"
+                        alt="Project">
+                  </div>
+                  <p class="project-title">Form Validation</p>
+                  <p class="project-about">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur repellat ratione quaerat vero!</p>
+                  <span>Tehnologii: CSS, HTML, JS</span>
+                  <div class="project-btn">
+                    <button>Afiseaza</button>
+                  </div>
+                </div>
+            </div>
+            <div class="col-project">
+              <div class="project">
+                <div class="project-image">
+                  <img src="./Assets/image/project.png" class="img-project"
+                      alt="Project">
+                </div>
+                <p class="project-title">Form Validation</p>
+                <p class="project-about">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur repellat ratione quaerat vero!</p>
+                <span>Tehnologii: CSS, HTML, JS</span>
+                <div class="project-btn">
+                  <button>Afiseaza</button>
+                </div>
+              </div>
+              <div class="project">
+                <div class="project-image">
+                  <img src="./Assets/image/project.png" class="img-project"
+                        alt="Project">
+                </div>
+                <p class="project-title">Form Validation</p>
+                <p class="project-about">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur repellat ratione quaerat vero!</p>
+                <span>Tehnologii: CSS, HTML, JS</span>
+                <div class="project-btn">
+                  <button>Afiseaza</button>
+                </div>
+                </div>
+                <div class="project">
+                <div class="project-image">
+                  <img src="./Assets/image/project.png" class="img-project"
+                        alt="Project">
+                </div>
+                <p class="project-title">Form Validation</p>
+                <p class="project-about">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur repellat ratione quaerat vero!</p>
+                <span>Tehnologii: CSS, HTML, JS</span>
+                <div class="project-btn">
+                  <button>Afiseaza</button>
+                </div>
+                </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- ABOUT ME SECTION -->
+    <section id="aboutMeS" class="section-aboutMe">
+      <h1 class="title-about">< Despre Mine /></h1>
+      <div class="container-aboutMe">
+          <div class="about-col1">
+            <div class="about-img">
+              <img src="./Assets/image/AboutMe.png"
+              alt="AboutMe">
+            </div>
+          </div>
+          <div class="about-col2">
+            <div class="about-content">
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil magni quos hic inventore repudiandae nulla, debitis iure quam, quod alias commodi repellendus sequi. Officia sequi quam itaque, dolorum pariatur aspernatur!</p>
+            </div>
+            <hr>
+            <div class="about-experience">
+              <h2>< Experienta /></h2>
+              <p>Team Lead | Logiscool</p>
+              <p>Instructor Front End Developer</p>
+              <p>Mentor</p>
+              <div class="cv-btn">
+                <button>CV</button>
+              </div>
+            </div>
+            <div class="about-tehnology">
+              <h2>< Tehnologii /></h2>
+              <div class="skills">
+                  <img src="./Assets/image/icons/html.png" alt="HTML">
+                  <img src="./Assets/image/icons/css.png" alt="CSS">
+                  <img src="./Assets/image/icons/js.png" alt="JS">
+                  <img src="./Assets/image/icons/react.png" alt="REACT">
+              </div>
+        </div> 
+          </div>
+      </div>
+    </section>  
+
+    <!-- CONTACT SECTION -->
+    <section id="contactS" class="contact-section">
+      <div class="container-contact">
+          <h1>< Contact /></h1>
+          <div class="contact-form">
+              <form>
+                  <label for="fname">< Nume /></label>
+                  <input type="text" id="fname" name="firstname">
+
+                  <label for="lname">< Subiect /></label>
+                  <input type="text" id="lname" name="lastname">
+              
+                  <label for="subject">< Mesaj /></label>
+                  <textarea id="subject" name="subject"></textarea>
+                  <div class="form-btn">
+                      <input type="submit" value="Trimite" class="contact-btn">
+                  </div>
+              </form>
+          </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="contact-icons">
+        <img src="./Assets/image/icons/linkedin.png" alt="LINKEDIN">
+        <img src="./Assets/image/icons/github.png" alt="GITHUB">
+        <img src="./Assets/image/icons/instagram.png" alt="INSTAGRAM">
+      </div>
+      <div class="copyright">
+        <span>&copy; Balint Alexandru 2022</span>
+      </div>
+    </footer>
+
+  </body>
+</html>
+
