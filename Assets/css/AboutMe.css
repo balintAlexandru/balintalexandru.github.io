@@ -107,7 +107,7 @@ hr{
 }
 @media only screen and (min-width: 900px) {
     .section-aboutMe{
-        height:100vh; 
+        height:auto; 
     }
     .container-aboutMe{
         flex-direction:row-reverse;

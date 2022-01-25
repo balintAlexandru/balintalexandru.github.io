@@ -9,7 +9,7 @@
 } 
 .section-home{
     /* border:2px solid rgb(248, 248, 248);     */
-    height: 100vh;
+    height:auto;
     width:100%;
     padding-top: 4rem;
     padding-bottom: 9rem;
@@ -71,7 +71,6 @@
     padding-left: 0.3rem;
 }
 /* END BUTTON DESIGN */
-
 
 @media only screen and (min-width: 900px) {
     #projector {
