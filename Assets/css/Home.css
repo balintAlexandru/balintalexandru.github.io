@@ -1,0 +1,121 @@
+#projector {
+    /* border:1px solid white;  */
+    position: absolute; 
+    top: 0px;
+    left: 0px;
+    width:100%;
+    height:100vh;
+    z-index: -99;
+} 
+.section-home{
+    /* border:2px solid rgb(248, 248, 248);     */
+    height: 100vh;
+    width:100%;
+    padding-top: 4rem;
+    padding-bottom: 9rem;
+    overflow: hidden;
+    z-index: 99;
+}
+/* CONTAINER DESIGN */
+.container-home{
+    /* border:2px solid rgb(248, 248, 248); */
+    display: flex;
+    flex-direction: column;
+    margin-top: 8rem;
+    align-items: center;
+    justify-content: center;
+}
+.container-home img{
+    /* border:2px solid rgb(248, 248, 248);  */
+    width: 350px;
+    height: 350px;
+    margin-right: 2.5rem;
+   
+}
+.home-title{
+    /* border:2px solid rgb(248, 248, 248); #1A4395  */
+    color: #2a5dc4;
+    font-size: 2rem;
+    margin-top: 1.5rem;
+}
+.container-home p{
+    /* border:2px solid rgb(248, 248, 248); */
+    color: white;
+    font-size: 1.3rem;
+    margin-top:0.9rem;
+}
+/* END CONTAINER DESIGN */
+
+/* BUTTON DESIGN */
+.container-home button{
+    padding:0.8rem;
+    margin-top:2.5rem;
+    width: 35%;
+    border:2px solid #b62430;
+    background-color:transparent;
+    color: #C4C4C4;
+    font-size:1.1rem;
+}
+.material-icons{
+    /* border:2px solid white; #F04F4F */
+    height:20px;
+    padding-left: 0.3rem;
+}
+.btn{
+    /* border:2px solid white;  */
+    display: flex;
+}
+.btn p{
+    margin:0;
+    font-size:1.2rem;
+    padding-left: 0.3rem;
+}
+/* END BUTTON DESIGN */
+
+
+@media only screen and (min-width: 900px) {
+    #projector {
+        /* border:1px solid white; */
+        top: 10rem;
+        left: 0; 
+        right: 0; 
+        margin-left: auto; 
+        margin-right: auto; 
+        width:55%;
+        height:55vh;
+    } 
+    .container-home{
+        margin-top:10rem;
+    }
+    .container-home img{
+        width: 450px;
+        height: 450px;
+        margin-right:4rem;
+    }
+    .home-title{
+        font-size: 2.5rem;
+        margin-top: 1rem;
+    }
+    .container-home p{
+        font-size: 1.5rem;
+        margin-top:0.5rem;
+    }
+    .container-home button{
+        padding:0.8rem;
+        margin-top:2.5rem;
+        width: 140px;
+        transition-duration: 0.5s;
+        cursor: pointer;
+    }
+    .container-home button:hover{
+        background-color:#b62430;
+    }
+    .btn{
+        display: flex;
+    }
+    .btn p{
+        margin:0;
+        font-size:1.2rem;
+        padding-left: 0.8rem;
+    }
+}

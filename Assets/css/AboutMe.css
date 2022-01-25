@@ -1,0 +1,187 @@
+.section-aboutMe{
+    border:2px solid transparent;           
+    position: relative;
+    height: auto;
+    width:100%;
+    
+}
+.container-aboutMe{
+    /* border:2px solid white;    */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.title-about{
+    /* border:2px solid white; */
+    margin-top:5rem;
+    color: #2a5dc4;
+    font-size: 2.3rem;
+    text-align:center;
+}
+.about-content{
+    /* border:2px solid white;  */
+    margin:auto;
+    width:80%;
+}
+.about-content p {
+    font-size:1.1rem;
+    color:white;
+    /* border: 2px solid white; */
+}
+.about-img{
+    margin-top:4rem;
+    width:100%;
+}
+.about-img img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height:235px;
+}
+.skills img{
+    padding-left:2rem;
+    width: 200px;
+    height: 120px;
+    /* border: 2px solid white; */
+}
+.about-experience p{
+    color: #cfd5df7e;
+    line-height:0.5rem;
+    padding-top: 0.2rem;
+}
+hr{
+    border:none;
+    height:1px;
+    width:80%;
+    margin:auto;
+    margin-top:1rem;
+    background-color:#a69d9d55;
+}
+.about-experience h2{
+    color:#b62430;
+    margin-top:2rem;
+    margin-bottom: 0.5rem;
+}
+.about-experience{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.cv-btn button{
+    width:20%;
+    background-color: transparent;
+    border:1px solid #2a5dc4;
+    color:white;
+    padding:0.4rem;
+    margin-top: 1.2rem;
+}
+.skills img{
+    width:75px;
+    height:44px;
+}
+.about-tehnology{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about-tehnology h2{
+    color:#b62430;
+    margin-top:2rem;
+    margin-bottom: 0.5rem;
+}
+.skills{
+    margin-top:1rem;
+    margin-right: 1.8rem;
+}
+.about-col1{
+    /* border:1px solid white; */
+}
+.about-col2{
+    /* border:1px solid white; */
+}
+.about-col2 p{
+    color:white;
+    padding-top: 1rem;
+    /* border:2px solid white; */
+}
+@media only screen and (min-width: 900px) {
+    .section-aboutMe{
+        height:100vh; 
+    }
+    .container-aboutMe{
+        flex-direction:row-reverse;
+        margin-top: 6rem;
+    }
+    .title-about{
+        font-size: 2.5rem;
+        margin-top: 7rem;
+    }
+    .about-img{
+        /* border:2px solid white;  */
+        display: flex;
+        height: 550px;
+        padding-right: 20rem;
+    }
+    .about-img img{
+        width: 80%;
+        height:auto;
+        margin: auto;
+    }
+    hr{
+        width:70%;
+        margin:auto;
+        margin-top: 2rem;
+    }
+    .about-content{
+        /* border:2px solid white; */
+        width:35rem;
+    }
+    .about-content p {
+        font-size:1.2rem;
+        width:auto;
+        text-align:center;
+        margin:auto;
+    }
+    .about-experience h2{
+        font-size:2rem;
+    }
+    .about-experience p{
+        color: #CFD5DF;
+        margin-top: 0.5rem;
+        font-size:1.2rem;
+    }
+    .cv-btn button{
+        width:10%;
+        background-color: transparent;
+        border:2px solid #1A4395;
+        color:white;
+        margin-top:1.5rem;
+        padding:0.5rem;
+        cursor:pointer;
+        transition-duration: 0.5s;
+    }
+    .cv-btn button:hover{
+        width:10%;
+        background-color: #1A4395;
+    }
+    .about-tehnology h2{
+        font-size: 2rem;
+        margin-top:2.5rem;
+        margin-bottom: 0.5rem;
+    }
+    .skills img{
+        width:85px;
+        height:50px;
+    }
+    .about-col1{
+        /* border:1px solid white; */
+        width:50%;
+    }
+    .about-col2{
+        /* border:1px solid white;  */
+        width:50%;
+        padding-top: 3rem;
+        padding-left: 20rem;
+    }
+}

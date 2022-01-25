@@ -1,0 +1,115 @@
+.contact-section{
+    /* border:2px solid rgb(248, 248, 248);  */
+    position: relative;
+    height:auto;
+    width:100%;
+}
+.container-contact{
+    /* border:2px solid white; */
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.container-contact h1{
+    /* border:2px solid white; */
+    margin-top:4rem;
+    color: #3E75E4;
+    font-size: 2.3rem;
+}
+.contact-form{
+     /* border:2px solid white;  */
+     margin-top: 4rem;
+     width:60%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    color: white;
+    font-size:1rem;
+    padding-top: 1rem;
+    padding-bottom:0.2rem;
+}
+input{
+    background-color: transparent;
+    border:1px solid #C4C4C4;
+    height:30px;
+}
+textarea{
+    background-color: transparent;
+    border:1px solid #C4C4C4;
+    height:200px;
+    
+}
+.contact-btn{
+    color:rgb(255, 255, 255);
+    margin-top:1rem;
+    font-size:1.2rem;
+    border:2px solid #1A4395;
+    padding: 0.5rem;
+    height:40px;
+    cursor:pointer;
+    transition-duration: 0.5s;
+}
+.form-btn{
+    /* border:1px solid white; */
+    display: flex;
+    justify-content: center;
+    margin-top:1rem;
+    padding-bottom: 5rem;
+}
+.contact-icons{
+    margin-top: 1.5rem;
+}
+.contact-icons img{
+    width: 60px;
+    height: 60px;
+    padding:1rem;
+}
+.copyright{
+    padding-top:1rem;
+}
+.copyright span{
+    padding-top:1rem;
+    color:rgba(255, 255, 255, 0.527);
+    font-size:0.8rem;
+}
+footer{
+    background-color:rgba(29, 26, 26, 0.555);
+    text-align:center;
+    position:relative;
+    height:7rem;
+}
+
+@media only screen and (min-width: 900px) {
+    .contact-section{
+        height:70vh;
+    }
+    .container-contact{
+        padding-top: 1rem;
+    }
+    .container-contact h1{
+        margin-top:0;
+        color: #3E75E4;
+        font-size: 2.5rem;
+    }
+    .contact-form{
+        /* border:2px solid white;   */
+        margin-top: 8rem;
+        width:30%;
+   }
+   footer{
+       height:15vh;
+   }
+   .contact-icons{
+      padding-top: 2rem;    
+   } 
+   .contact-icons img{
+      width:4.5rem;
+      height:4.5rem;       
+   } 
+   .contact-btn:hover{
+       background-color: #1A4395;
+   }
+}
