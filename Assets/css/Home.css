@@ -1,5 +1,5 @@
 #projector {
-    /* border:1px solid white;  */
+    /* border:1px solid white;   */
     position: absolute; 
     top: 0px;
     left: 0px;
@@ -75,13 +75,13 @@
 @media only screen and (min-width: 900px) {
     #projector {
         /* border:1px solid white; */
-        top: 10rem;
+        top: 12rem;
         left: 0; 
         right: 0; 
         margin-left: auto; 
         margin-right: auto; 
-        width:55%;
-        height:55vh;
+        width:40%;
+        height:40vh;
     } 
     .container-home{
         margin-top:10rem;

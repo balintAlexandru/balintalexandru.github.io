@@ -66,7 +66,6 @@ hr{
 .about-experience{
     display: flex;
     flex-direction: column;
-    text-align: center;
 }
 .cv-btn button{
     width:20%;
@@ -129,19 +128,23 @@ hr{
         margin: auto;
     }
     hr{
-        width:70%;
-        margin:auto;
+        width:90%;
         margin-top: 2rem;
     }
     .about-content{
-        /* border:2px solid white; */
+        /* border:2px solid white;  */
         width:35rem;
     }
     .about-content p {
         font-size:1.2rem;
         width:auto;
-        text-align:center;
+        text-align:left;
         margin:auto;
+    }
+    .about-experience{
+        /* border:2px solid white; */
+        align-items: flex-start;
+        padding-left: 2.5rem;
     }
     .about-experience h2{
         font-size:2rem;
@@ -151,8 +154,14 @@ hr{
         margin-top: 0.5rem;
         font-size:1.2rem;
     }
+    .cv-btn{
+        /* border: 2px solid white; */
+        width: 100%;
+        display: flex;
+        align-items:flex-start;
+    }
     .cv-btn button{
-        width:10%;
+        width:20%;
         background-color: transparent;
         border:2px solid #1A4395;
         color:white;
@@ -165,13 +174,21 @@ hr{
         width:10%;
         background-color: #1A4395;
     }
+    .about-tehnology{
+        display: flex;
+        align-items:flex-start;
+        padding-left: 2.5rem;
+    }
     .about-tehnology h2{
         font-size: 2rem;
         margin-top:2.5rem;
         margin-bottom: 0.5rem;
     }
     .skills img{
-        width:85px;
+        /* border:2px solid white; */
+        padding:0;
+        margin-right: 2rem;
+        width:55px;
         height:50px;
     }
     .about-col1{
@@ -179,7 +196,7 @@ hr{
         width:50%;
     }
     .about-col2{
-        /* border:1px solid white;  */
+        /* border:1px solid white;   */
         width:50%;
         padding-top: 3rem;
         padding-left: 20rem;

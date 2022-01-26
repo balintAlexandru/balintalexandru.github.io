@@ -81,7 +81,7 @@ let ParticleEngine = (function() {
           forParticleInstance: {
             yMovementRange: this.totalHeight,
             xMovementRange: this.totalWidth,
-            particleColor: "rgb(212, 142, 11)", 
+            particleColor: "#b62430", 
             travelDistance: 16,  
             baseXCoordinate: 0,
             baseYCoordinate: 0, 
@@ -90,7 +90,7 @@ let ParticleEngine = (function() {
             alphaMax: 8.3, 
             blur: false,  
           },
-          particleCount: 10, 
+          particleCount: 15, 
           id: "medium", 
         }, 
 
@@ -108,7 +108,7 @@ let ParticleEngine = (function() {
             alphaMax: 8.2, 
             blur: false,  
           },
-          particleCount: 4,  
+          particleCount: 0,  
           id: "large",  
         }
     ]
