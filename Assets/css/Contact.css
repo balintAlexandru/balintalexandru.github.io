@@ -46,9 +46,10 @@ textarea{
     color:rgb(255, 255, 255);
     margin-top:1rem;
     font-size:1.2rem;
-    border:2px solid #1A4395;
-    padding: 0.5rem;
-    height:40px;
+    border:2px solid #b62430;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height:48px;
     cursor:pointer;
     transition-duration: 0.5s;
 }
@@ -106,10 +107,10 @@ footer{
       padding-top: 2rem;    
    } 
    .contact-icons img{
-      width:4.5rem;
-      height:4.5rem;       
+      width:4rem;
+      height:4rem;       
    } 
    .contact-btn:hover{
-       background-color: #1A4395;
+       background-color: #b62430;
    }
 }

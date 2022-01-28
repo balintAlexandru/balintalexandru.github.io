@@ -14,19 +14,19 @@
 .container-project h1{
     /* border:2px solid white;#f63232 */
     margin-top:5rem;
+    margin-bottom:3rem;
     color: #2a5dc4;
     font-size: 2.3rem;
 }
 .col-project{
-    /* border:2px solid white;   */
-    margin-top:2.5rem;
+    /* border:2px solid white;    */
     width:70%;
     display:flex;
     flex-direction: column;
 }
 .project{
     border:1px solid rgba(255, 255, 255, 0.103);   
-    margin-top:2rem;
+    margin-top:1.5rem;
     display:flex;
     flex-direction: column;
     width:17rem;

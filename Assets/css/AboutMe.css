@@ -21,11 +21,14 @@
 .about-content{
     /* border:2px solid white;  */
     margin:auto;
-    width:80%;
+    width:70%;
+    margin-top: 1rem;
 }
 .about-content p {
     font-size:1rem;
     color:white;
+    text-align:left;
+    opacity: 60%;
     /* border: 2px solid white; */
 }
 .about-img{
@@ -49,31 +52,36 @@
     color: #cfd5df7e;
     line-height:0.5rem;
     padding-top: 0.2rem;
+    opacity: 60%;
 }
 hr{
     border:none;
     height:1px;
-    width:80%;
+    width:70%;
     margin:auto;
     margin-top:1rem;
     background-color:#a69d9d55;
 }
 .about-experience h2{
-    color:#b62430;
+    color:#ffffff;
     margin-top:2rem;
     margin-bottom: 0.5rem;
+    opacity: 87%;
 }
 .about-experience{
     display: flex;
     flex-direction: column;
 }
 .cv-btn button{
-    width:20%;
+    width:25%;
     background-color: transparent;
-    border:1px solid #2a5dc4;
+    border:1px solid #b62430;
     color:white;
-    padding:0.4rem;
+    padding-left:1rem;
+    padding-right:1rem;
     margin-top: 1.2rem;
+    text-align:center;
+    height: 3rem ;
 }
 .skills img{
     width:75px;
@@ -85,9 +93,10 @@ hr{
     align-items: center;
 }
 .about-tehnology h2{
-    color:#b62430;
+    color:#fbfbfb;
     margin-top:2rem;
     margin-bottom: 0.5rem;
+    opacity: 87%;
 }
 .skills{
     margin-top:1rem;
@@ -163,16 +172,16 @@ hr{
     .cv-btn button{
         width:20%;
         background-color: transparent;
-        border:2px solid #1A4395;
+        border:2px solid #b62430;
         color:white;
         margin-top:1.5rem;
+        height: 3rem ;
         padding:0.5rem;
         cursor:pointer;
         transition-duration: 0.5s;
     }
     .cv-btn button:hover{
-        width:10%;
-        background-color: #1A4395;
+        background-color: #b62430;
     }
     .about-tehnology{
         display: flex;
