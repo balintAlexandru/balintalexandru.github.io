@@ -4,6 +4,7 @@
     height:auto;
     width:100%;
 }
+
 .container-contact{
     /* border:2px solid white; */
     display: flex;
@@ -82,6 +83,9 @@ footer{
     position:relative;
     height:7rem;
 }
+input, select, textarea{
+    color: #ffffff;
+}
 
 @media only screen and (min-width: 900px) {
     .contact-section{
@@ -108,7 +112,9 @@ footer{
    } 
    .contact-icons img{
       width:4rem;
-      height:4rem;       
+      height:4rem;    
+      cursor:pointer;   
+      margin: 0.5rem;
    } 
    .contact-btn:hover{
        background-color: #b62430;

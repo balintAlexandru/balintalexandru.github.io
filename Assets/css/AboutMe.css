@@ -160,18 +160,21 @@ hr{
         padding-left: 2.5rem;
     }
     .about-experience h2{
-        font-size:2rem;
+        font-size:1.8rem;
+        padding-left:0.5rem;
     }
     .about-experience p{
         color: #CFD5DF;
         margin-top: 0.5rem;
         font-size:1.2rem;
+        padding-left:0.5rem;
     }
     .cv-btn{
         /* border: 2px solid white; */
         width: 100%;
         display: flex;
         align-items:flex-start;
+        padding-left:0.5rem;
     }
     .cv-btn button{
         width:20%;
@@ -179,7 +182,7 @@ hr{
         border:2px solid #b62430;
         color:white;
         margin-top:1.5rem;
-        height: 3rem ;
+        height: 48px;
         padding:0.5rem;
         cursor:pointer;
         transition-duration: 0.5s;
@@ -193,9 +196,10 @@ hr{
         padding-left: 2.5rem;
     }
     .about-tehnology h2{
-        font-size: 2rem;
+        font-size: 1.8rem;
         margin-top:2.5rem;
         margin-bottom: 0.5rem;
+        padding-left:0.5rem;
     }
     .skills img{
         /* border:2px solid white; */
