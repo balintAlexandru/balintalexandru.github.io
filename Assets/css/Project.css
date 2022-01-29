@@ -90,10 +90,11 @@
         font-size: 2.5rem;
         margin-bottom: 0rem;
         margin-top: 7rem;
+        margin-bottom: 0.5rem;
     }
     .col-project{
-        margin-top:1.5rem;
         width:50%;
+        margin-top: 1rem;
         display:flex;
         justify-content: space-between;
         flex-direction: row;
@@ -103,7 +104,8 @@
         height: 105px;
      } 
      .project{
-       margin-top:1rem;
+       margin-left: 2.5rem;
+      
      }
      .project-btn button:hover{
         background-color:#b62430;
